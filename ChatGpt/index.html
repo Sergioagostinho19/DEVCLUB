@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seu portfolio front-end pessoal">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para ícones (opcional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Meu Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção de Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é [Seu Nome] e sou um desenvolvedor front-end apaixonado por criar experiências digitais incríveis.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Portfolio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Meu Portfolio</h2>
+            <div class="portfolio-items">
+                <!-- Exemplo de Item de Portfolio -->
+                <div class="portfolio-item">
+                    <img src="projeto1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto. Tecnologias utilizadas: HTML, CSS, JavaScript.</p>
+                    <a href="#" class="btn">Ver Projeto</a>
+                </div>
+                <!-- Mais itens de portfolio podem ser adicionados aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="enviar.php" method="POST" class="contact-form">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Meu Portfolio. Todos os direitos reservados.</p>
+            <ul class="social-links">
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <!-- Adicione mais ícones de redes sociais conforme necessário -->
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
